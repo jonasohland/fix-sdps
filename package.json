@@ -1,0 +1,26 @@
+{
+  "name": "fix_sdps",
+  "version": "0.0.1",
+  "description": "fix sdp files exported from riedel director for use with dante controller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "fix-sdps": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonasohland/fix-sdps.git"
+  },
+  "author": "Jonas Ohland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonasohland/fix-sdps/issues"
+  },
+  "homepage": "https://github.com/jonasohland/fix-sdps#readme",
+  "dependencies": {
+    "chokidar": "^3.3.1",
+    "commander": "^4.1.0"
+  }
+}
